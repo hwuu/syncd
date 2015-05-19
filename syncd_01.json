@@ -10,13 +10,13 @@
   "links": [
     {
       "name": "link_demo_01",
-      "folder_src": "/Users/haowu/Desktop/demo/",
+      "folder_src": "/Users/haowu/Desktop/git/training/demo/",
       "folder_tar": "/home/hao.wu/product/gdk/src/demo",
       "hops": ["hop_01"]
     },
     {
       "name": "link_gsql_01",
-      "folder_src": "/Users/haowu/Desktop/gsql/",
+      "folder_src": "/Users/haowu/Desktop/git/training/gsql/",
       "folder_tar": "/home/hao.wu/graphsql/gdev/gsql",
       "hops": ["hop_01"]
     }

@@ -71,7 +71,8 @@ class MyEventHandler(FileSystemEventHandler):
             cmd += "-i %s %s@%s" % (hop.key, hop.user, hop.host)
             if i < n_hop - 1:
                 cmd += " "
-        cmd += "\" %s :%s" % (self.link.folder_src, self.link.folder_tar)
+        cmd += "\" --exclude '.*' %s :%s" \
+               % (self.link.folder_src, self.link.folder_tar)
         #print cmd
         os.system(cmd)
         ts = datetime.datetime.now().strftime("%H:%M:%S")
