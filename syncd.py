@@ -95,6 +95,8 @@ def main():
         hop = Hop(x["name"], x["user"], x["host"], x["key"])
         d_hop[hop.name] = hop
     for x in cfg["links"]:
+        if x["enabled"] is False:
+            continue
         v_hop = []
         for y in x["hops"]:
             v_hop.append(d_hop[y])

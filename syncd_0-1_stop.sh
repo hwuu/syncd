@@ -1,1 +1,0 @@
-pkill -f "Python -d /Users/haowu/Desktop/git/syncd/syncd.py /Users/haowu/Desktop/git/syncd/syncd_0-1_in.json"
