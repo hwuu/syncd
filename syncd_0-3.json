@@ -1,0 +1,26 @@
+{
+  "hops": [
+    {
+      "name": "hop:0-3",
+      "user": "xinyu",
+      "host": "192.168.22.81",
+      "key": "/Users/hao/hw-graphsql_0-3.pem"
+    }
+  ],
+  "links": [
+    {
+      "name": "link:in66-core_impl:0-3",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/core_impl/",
+      "folder_tar": "/home/xinyu/repo/product/src/customer/core_impl/",
+      "hops": ["hop:0-3"],
+      "enabled": true
+    },
+    {
+      "name": "link:in66-rest_impl:0-3",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/rest_impl/",
+      "folder_tar": "/home/xinyu/repo/product/src/customer/rest_impl/",
+      "hops": ["hop:0-3"],
+      "enabled": true
+    }
+  ]
+}

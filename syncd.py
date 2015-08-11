@@ -61,6 +61,8 @@ class MyEventHandler(FileSystemEventHandler):
     #
     def on_modified(self, event):
         #
+        ts = datetime.datetime.now().strftime("%H:%M:%S")
+        print "[%s] %s: Syncing ......" % (ts, self.link.name)
         cmd = "rsync -a -e \""
         n_hop = len(self.link.v_hop)
         for i in range(0, n_hop):
@@ -76,7 +78,7 @@ class MyEventHandler(FileSystemEventHandler):
         #print cmd
         os.system(cmd)
         ts = datetime.datetime.now().strftime("%H:%M:%S")
-        print "[%s] %s: content synced." % (ts, self.link.name)
+        print "[%s] %s: Synced." % (ts, self.link.name)
 
 #
 ##

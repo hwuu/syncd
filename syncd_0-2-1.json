@@ -1,0 +1,39 @@
+{
+  "hops": [
+    {
+      "name": "hop:0-2",
+      "user": "hw",
+      "host": "107.134.24.146",
+      "key": "/Users/hao/hw-graphsql_0-2.pem"
+    },
+    {
+      "name": "hop:2-1",
+      "user": "hao.wu",
+      "host": "192.168.22.85",
+      "key": "/home/hw/hw-graphsql_2-1.pem"
+    }
+  ],
+  "links": [
+    {
+      "name": "link:core_impl:0-2-1",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/core_impl/",
+      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/core_impl/",
+      "hops": ["hop:0-2", "hop:2-1"],
+      "enabled": true
+    },
+    {
+      "name": "link:rest_impl:0-2-1",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/rest_impl/",
+      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/rest_impl/",
+      "hops": ["hop:0-2", "hop:2-1"],
+      "enabled": true
+    },
+    {
+      "name": "link:script:0-2-1",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/scripts/",
+      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/scripts/",
+      "hops": ["hop:0-2", "hop:2-1"],
+      "enabled": true
+    }
+  ]
+}
