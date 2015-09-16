@@ -1,0 +1,40 @@
+{
+  "hops": [
+    {
+      "name": "hop:0-4",
+      "user": "hao.wu",
+      "host": "192.168.33.37",
+      "key": "/Users/hao/hw-graphsql_0-4.pem"
+    }
+  ],
+  "links": [
+    {
+      "name": "link:src/customer/core_impl/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/core_impl/",
+      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/core_impl/",
+      "hops": ["hop:0-4"],
+      "enabled": true
+    },
+    {
+      "name": "link:src/customer/restpp_impl/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/restpp_impl/",
+      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/restpp_impl/",
+      "hops": ["hop:0-4"],
+      "enabled": true
+    },
+    {
+      "name": "link:src/customer/scripts/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/scripts/",
+      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/scripts/",
+      "hops": ["hop:0-4"],
+      "enabled": true
+    },
+    {
+      "name": "link:src/customer/core_impl/gsql_impl/ddl/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/core_impl/gsql_impl/ddl/",
+      "folder_tar": "/home/hao.wu/graphsql/dev/gsql/src/ddl/",
+      "hops": ["hop:0-4"],
+      "enabled": true
+    }
+  ]
+}

@@ -63,7 +63,7 @@ class MyEventHandler(FileSystemEventHandler):
         #
         ts = datetime.datetime.now().strftime("%H:%M:%S")
         print "[%s] %s: Syncing ......" % (ts, self.link.name)
-        cmd = "rsync -a -e \""
+        cmd = "rsync -a --no-links -e \""
         n_hop = len(self.link.v_hop)
         for i in range(0, n_hop):
             cmd += "ssh "
@@ -107,7 +107,13 @@ def main():
     #
     observer = Observer()
     for linkname, link in d_link.items():
-        observer.schedule(MyEventHandler(link), link.folder_src, recursive=True)
+        #
+        # Modified by Hao, 08/12/2015
+        # Sync at startup.
+        #
+        handler = MyEventHandler(link)
+        handler.on_modified(None)
+        observer.schedule(handler, link.folder_src, recursive=True)
     observer.start()
     try:
         while True:
