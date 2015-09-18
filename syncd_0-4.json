@@ -9,30 +9,16 @@
   ],
   "links": [
     {
-      "name": "link:src/customer/core_impl/",
-      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/core_impl/",
-      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/core_impl/",
+      "name": "link:lakala/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/",
+      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/",
       "hops": ["hop:0-4"],
       "enabled": true
     },
     {
-      "name": "link:src/customer/restpp_impl/",
-      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/restpp_impl/",
-      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/restpp_impl/",
-      "hops": ["hop:0-4"],
-      "enabled": true
-    },
-    {
-      "name": "link:src/customer/scripts/",
-      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/scripts/",
-      "folder_tar": "/home/hao.wu/poc4.3/lakala/src/customer/scripts/",
-      "hops": ["hop:0-4"],
-      "enabled": true
-    },
-    {
-      "name": "link:src/customer/core_impl/gsql_impl/ddl/",
-      "folder_src": "/Users/hao/Desktop/dev/lakala/src/customer/core_impl/gsql_impl/ddl/",
-      "folder_tar": "/home/hao.wu/graphsql/dev/gsql/src/ddl/",
+      "name": "link:sumscope/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/sumscope/src/customer/",
+      "folder_tar": "/home/hao.wu/poc4.3/sumscope/src/customer/",
       "hops": ["hop:0-4"],
       "enabled": true
     }
