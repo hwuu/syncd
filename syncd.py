@@ -63,7 +63,7 @@ class MyEventHandler(FileSystemEventHandler):
         #
         ts = datetime.datetime.now().strftime("%H:%M:%S")
         print "[%s] %s: Syncing ......" % (ts, self.link.name)
-        cmd = "rsync -a --no-links -e \""
+        cmd = "rsync -q -a --no-links -e \""
         n_hop = len(self.link.v_hop)
         for i in range(0, n_hop):
             cmd += "ssh "

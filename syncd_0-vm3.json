@@ -1,0 +1,19 @@
+{
+  "hops": [
+    {
+      "name": "hop:0-vm3",
+      "user": "hao",
+      "host": "192.168.251.13",
+      "key": "/Users/hao/hw-graphsql_0-vm3.pem"
+    }
+  ],
+  "links": [
+    {
+      "name": "link:lakala",
+      "folder_src": "/Users/hao/Desktop/lakala/",
+      "folder_tar": "/home/hao/lakala/",
+      "hops": ["hop:0-vm3"],
+      "enabled": true
+    }
+  ]
+}

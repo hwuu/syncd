@@ -9,23 +9,9 @@
   ],
   "links": [
     {
-      "name": "link:core_impl:0-1",
-      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/core_impl/",
-      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/core_impl/",
-      "hops": ["hop:0-1"],
-      "enabled": true
-    },
-    {
-      "name": "link:rest_impl:0-1",
-      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/rest_impl/",
-      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/rest_impl/",
-      "hops": ["hop:0-1"],
-      "enabled": true
-    },
-    {
-      "name": "link:script:0-1",
-      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/scripts/",
-      "folder_tar": "/home/hao.wu/poc4.2/product/src/customer/scripts/",
+      "name": "link:in66/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/",
+      "folder_tar": "/home/hao.wu/poc4.2/in66/src/customer/",
       "hops": ["hop:0-1"],
       "enabled": true
     }

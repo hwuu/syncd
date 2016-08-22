@@ -1,0 +1,47 @@
+{
+  "hops": [
+    {
+      "name": "hop:0-vm0",
+      "user": "hao",
+      "host": "192.168.251.10",
+      "key": "/Users/hao/hw-graphsql_0-vm0.pem"
+    }
+  ],
+  "links": [
+    {
+      "name": "link:jc/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/jc/src/customer/",
+      "folder_tar": "/home/hao/poc4.3/jc/src/customer/",
+      "hops": ["hop:0-vm0"],
+      "enabled": false
+    },
+    {
+      "name": "link:jc/ptest/",
+      "folder_src": "/Users/hao/Desktop/dev/jc/ptest/",
+      "folder_tar": "/home/hao/poc4.3/jc/ptest/",
+      "hops": ["hop:0-vm0"],
+      "enabled": false
+    },
+    {
+      "name": "link:lakala2/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala2/src/customer/",
+      "folder_tar": "/home/hao/poc4.3/lakala2/src/customer/",
+      "hops": ["hop:0-vm0"],
+      "enabled": true
+    },
+    {
+      "name": "link:lakala2/src/visualization/",
+      "folder_src": "/Users/hao/Desktop/dev/lakala2/src/visualization/",
+      "folder_tar": "/home/hao/poc4.3/lakala2/src/visualization/",
+      "hops": ["hop:0-vm0"],
+      "enabled": true
+    },
+    {
+      "name": "link:bangcle/src/customer/",
+      "folder_src": "/Users/hao/Desktop/dev/bangcle/src/customer/",
+      "folder_tar": "/home/hao/poc4.3/bangcle/src/customer/",
+      "hops": ["hop:0-vm0"],
+      "enabled": true
+    }
+  ]
+}
