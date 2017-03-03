@@ -4,35 +4,21 @@
       "name": "hop:0-vm1",
       "user": "hao",
       "host": "192.168.251.11",
-      "key": "/Users/hao/hw-graphsql_0-vm1.pem"
+      "key": "/Users/hao/gshw_0-vm1.pem"
     }
   ],
   "links": [
     {
-      "name": "link:in66/src/customer/",
-      "folder_src": "/Users/hao/Desktop/dev/in66/src/customer/",
-      "folder_tar": "/home/hao/poc4.2/in66/src/customer/",
+      "name": "link:src/gle/parser/com/graphsql/schema/",
+      "folder_src": "/Users/hao/Desktop/dev/gle/parser/com/graphsql/schema/",
+      "folder_tar": "/home/hao/product/src/gle/parser/com/graphsql/schema/",
       "hops": ["hop:0-vm1"],
       "enabled": true
     },
     {
-      "name": "link:in66/gsql/",
-      "folder_src": "/Users/hao/Desktop/dev/in66/gsql/",
-      "folder_tar": "/home/hao/poc4.2/in66/gsql/",
-      "hops": ["hop:0-vm1"],
-      "enabled": true
-    },
-    {
-      "name": "link:in66/ptest/test_case/",
-      "folder_src": "/Users/hao/Desktop/dev/in66/ptest/test_case/",
-      "folder_tar": "/home/hao/poc4.2/in66/ptest/test_case/",
-      "hops": ["hop:0-vm1"],
-      "enabled": true
-    },
-    {
-      "name": "link:glive/",
-      "folder_src": "/Users/hao/Desktop/dev/glive/",
-      "folder_tar": "/home/hao/glive/",
+      "name": "link:src/gle/regress/test_case/",
+      "folder_src": "/Users/hao/Desktop/dev/gle/regress/test_case/",
+      "folder_tar": "/home/hao/product/src/gle/regress/test_case/",
       "hops": ["hop:0-vm1"],
       "enabled": true
     }
